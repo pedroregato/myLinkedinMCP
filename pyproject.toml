@@ -1,0 +1,11 @@
+[project]
+name = "mylinkedin-mcp"
+version = "0.0.1"
+description = "Vendor-neutral MCP server for professional profile intelligence."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
