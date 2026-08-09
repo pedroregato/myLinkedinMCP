@@ -9,11 +9,11 @@ All criteria below are mandatory unless the Human Architect records an explicit 
 - [ ] Data Model approved — S00-005
 - [ ] MCP Contract approved — S00-006
 - [ ] Evaluation Strategy approved — S00-007
-- [ ] Development Governance review findings accepted — S00-008
-- [ ] Development Governance remediation approved and governance activation recorded — S00-009
+- [x] Development Governance review findings accepted — S00-008
+- [x] Development Governance remediation approved and governance activation recorded — S00-009 / S00-013
 - [ ] Initial BDD scenarios created — S00-010
-- [ ] Codex autonomy levels approved and governance 0.3 activation recorded — S00-011
-- [ ] Governed Git baseline established and accepted — S00-012
+- [x] Codex autonomy levels approved and governance 0.3 activation recorded — S00-011 / S00-013
+- [x] Governed Git baseline established and accepted — S00-012
 - [ ] Sprint branch `sprint/00-foundation` used
 - [ ] Each accepted task is traceable through its applicable requirement, scope, diff, commit, PR, human acceptance, and merge evidence
 - [ ] No unauthorized functional implementation, dependency installation, destructive operation, credential use, or external write introduced

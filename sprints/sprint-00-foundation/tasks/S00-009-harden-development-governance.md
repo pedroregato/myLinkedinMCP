@@ -1,6 +1,6 @@
 # S00-009 — Harden Development Governance
 
-Status: REVIEW
+Status: DONE
 Owner: Codex
 Reviewer: Human Architect
 Priority: Critical
@@ -153,6 +153,10 @@ Most authorized files were already untracked in the pre-existing working tree, s
 ### Final Recommendation
 
 `READY FOR HUMAN REVIEW` — the approved S00-008 remediation scope is addressed, but only the Human Architect may approve/activate governance 0.2, accept residual risks, and move S00-009 to DONE.
+
+## Acceptance Reconciliation
+
+2026-08-08 — Human Architect approved Governance Set 0.3 and authorized its activation. Because Governance Set 0.3 embodies the S00-009 remediation, S00-013 recorded that decision as acceptance and reconciled the task and board to DONE.
 
 ## Completion Rule
 

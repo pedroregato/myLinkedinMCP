@@ -1,6 +1,6 @@
 # Sprint 00 — Foundation
 
-Status: PLANNED
+Status: ACTIVE
 Owner: Human Architect
 Builder Agent: Codex
 Integration Branch: `sprint/00-foundation`
@@ -36,9 +36,14 @@ Sprint 00 may enter REVIEW only when every task marked `Mandatory: Yes` is DONE 
 
 Sprint closure requires explicit Human Architect approval.
 
-## Activation Note
+## Activation Record
 
-Sprint 00 remains PLANNED. S00-009 and S00-011 are Human-Architect-authorized, narrowly scoped pre-activation governance tasks needed to make sprint activation safe. Each exception covers only its recorded scope; neither activates the sprint nor authorizes any other task.
+- Authority: Human Architect
+- Decision date: 2026-08-08
+- Transition: `PLANNED -> ACTIVE`
+- Prerequisites verified: objective, scope, non-goals, risks, backlog, mandatory flags, acceptance criteria, definition of done, integration branch, and active Governance Set 0.3 are recorded.
+- Residual risks: GitHub protection settings remain unverified; ignored bootstrap artifacts await Human Architect disposition; governance changes and Sprint 00 work remain subject to task authorization and Human Architect review.
+- Execution boundary: activation does not start S00-001 or any later Sprint 00 task. No subsequent task may begin until the S00-013 PR is reviewed and merged by the Human Architect.
 
 ## Definition of Done
 
