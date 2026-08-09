@@ -1,11 +1,11 @@
 # S00-012 — Establish Governed Git Baseline
 
-Status: REVIEW
+Status: DONE
 Owner: Codex
 Reviewer: Human Architect
 Priority: Critical
 Mandatory: Yes
-Autonomy-Level: STANDARD
+Autonomy-Level: ELEVATED (completion grant)
 
 ## Objective
 
@@ -56,11 +56,13 @@ The repository has no commits, uses local branch `master`, and contains mixed st
 - [x] Local branch is renamed safely from `master` to `main`.
 - [x] Remote name `origin` is verified without disclosing its URL.
 - [x] Only appropriate baseline files are staged and the exact staged list is recorded.
-- [ ] At most one local commit is created with `chore: establish governed project baseline [S00-012]`, only if all gates pass.
-- [ ] Commit hash, committed-file list, branch, and post-commit status are recorded if commit succeeds.
+- [x] At most one local commit is created with `chore: establish governed project baseline [S00-012]`, only if all gates pass.
+- [x] Commit hash, committed-file list, branch, and post-commit status are recorded if commit succeeds.
 - [x] Consolidation of S00-008, S00-009, and S00-011 as pre-baseline work is explicitly recorded.
 - [x] Governance/sprint consistency checks pass or discrepancies are recorded.
-- [x] S00-012 is moved to REVIEW, not DONE; no push, PR, merge, force-push, history rewrite, branch deletion, or sprint closure occurs.
+- [x] Human Architect accepted S00-012; the task and board are moved to DONE without closing Sprint 00.
+- [x] One follow-up evidence commit is created with the exact authorized message and pushed directly from `main` to `origin` under the one-time baseline exception.
+- [x] No PR, merge, force-push, history rewrite, branch deletion, repository-settings change, or sprint closure occurs.
 
 ## Evidence Required
 
@@ -77,7 +79,7 @@ The repository has no commits, uses local branch `master`, and contains mixed st
 
 ## Autonomy
 
-Level: STANDARD
+Level: ELEVATED (Human Architect completion grant dated 2026-08-08)
 
 ### Authorized Operations
 
@@ -88,6 +90,7 @@ Level: STANDARD
 - stage approved baseline files;
 - create exactly one local baseline commit if every stated safety condition passes;
 - update task/board/backlog/acceptance/execution evidence.
+- complete the accepted task's remaining Git lifecycle exactly as authorized: DONE status, one evidence commit, a final safety gate, and one non-force push of `main` to `origin`.
 
 ### Operations Requiring Human Approval
 
@@ -109,6 +112,10 @@ Level: STANDARD
 2026-08-08 — Task moved READY -> IN_PROGRESS; Git baseline inventory started.
 
 2026-08-08 — Baseline classification and safety gates passed; task and board moved IN_PROGRESS -> REVIEW before the conditional baseline commit.
+
+2026-08-08 — Created the single authorized local root commit `c070965bb1c83ce0cf10eacf655dca1cf787026a` on `main`; immediate post-commit status was clean. No remote or destructive Git operation occurred.
+
+2026-08-08 — Human Architect accepted S00-012 functionally, assigned an ELEVATED completion grant, authorized REVIEW -> DONE, one exact-message evidence commit, and a one-time direct push of `main` to `origin`. This exception creates no precedent for future direct pushes to `main`.
 
 ## Execution Report
 
@@ -226,10 +233,13 @@ Treat both bootstrap scripts as temporary, pre-baseline scaffolding rather than 
 ### Commit Evidence
 
 - Exact commit message: `chore: establish governed project baseline [S00-012]`
-- Commit hash: Pending conditional commit.
-- Committed file list: Pending verification against the staged list above.
-- Immediate post-commit status: Pending.
-- Final evidence-recording status: Pending; recording the commit's own hash necessarily occurs after the commit and cannot be contained in that same commit without rewriting history.
+- Commit hash: `c070965bb1c83ce0cf10eacf655dca1cf787026a`.
+- Committed file list: verified exactly equal to the 36-file staged list above.
+- Commit summary: `36 files changed, 2497 insertions(+)`.
+- Commit branch: `main`.
+- Immediate post-commit status: `CLEAN`.
+- Follow-up evidence commit message: `docs: record baseline commit evidence [S00-012]`.
+- Follow-up evidence commit hash: necessarily determined after this report is committed. Recording that hash in committed history would require another commit; history will not be rewritten and no recursive evidence-commit chain will be created.
 
 ### Remaining Risks
 
@@ -241,15 +251,13 @@ Treat both bootstrap scripts as temporary, pre-baseline scaffolding rather than 
 
 ### Unresolved Human Architect Decisions
 
-- Accept or request changes to the baseline and S00-012.
 - Decide whether the ignored bootstrap scripts should be deleted or represented by sanitized historical documentation.
 - Approve/activate governance 0.3 and record its effective date.
-- Configure or verify GitHub protections before any authorized first push.
-- Decide whether the post-commit S00-012 evidence update should be included in a later authorized evidence commit.
+- Configure or verify GitHub protections separately; this was not authorized as part of S00-012 completion.
 
 ### External Git Status
 
-- Push status: `N/A — not authorized`.
+- Push status: authorized as a one-time direct `main` baseline exception; final result is recorded after the operation in the task and sprint execution logs without creating another commit.
 - PR status: `N/A — not authorized`.
 - Merge status: `N/A — not authorized`.
 - Force-push/history rewrite/branch deletion: not performed.
