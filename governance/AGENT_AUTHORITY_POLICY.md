@@ -1,9 +1,10 @@
 # Agent Authority Policy
 
 > Document version: 0.2  
-> Governance set: 0.3 Proposed  
+> Governance set: 0.3  
 > Authority: Human Architect  
-> Effective date: Pending approval
+> Effective date: 2026-08-08  
+> Status: Active
 
 ## Default-Deny Rule
 

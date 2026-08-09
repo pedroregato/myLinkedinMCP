@@ -23,9 +23,7 @@ _No active tasks._
 
 ## REVIEW
 
-- [S00-008] Approve Development Governance (Mandatory)
-- [S00-009] Harden Development Governance (Mandatory)
-- [S00-011] Formalize Codex Autonomy Levels (Mandatory; STANDARD)
+- [S00-013] Activate Governance 0.3 and Sprint 00 (Mandatory; ELEVATED)
 
 ## CHANGES REQUESTED
 
@@ -43,5 +41,7 @@ _No cancelled tasks._
 
 - [BOOT-001] Create initial project structure (Mandatory)
 - [BOOT-002] Create governance and sprint structure (Mandatory)
+- [S00-008] Approve Development Governance (Mandatory)
+- [S00-009] Harden Development Governance (Mandatory)
 - [S00-011] Formalize Codex Autonomy Levels
 - [S00-012] Establish Governed Git Baseline (Mandatory; ELEVATED completion grant)

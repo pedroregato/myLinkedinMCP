@@ -5,13 +5,23 @@ This directory contains the canonical governance rules for myLinkedinMCP. It def
 ## Governance Record
 
 - Governance set version: 0.3
-- Status: Proposed
+- Status: Active
 - Approving authority: Human Architect
-- Approval record: Pending S00-009 and S00-011 acceptance
-- Effective date: Pending Human Architect approval
-- Supersedes: Version 0.1 draft and version 0.2 proposal upon approval
+- Approval record: Approved by the Human Architect on 2026-08-08 under S00-013
+- Effective date: 2026-08-08
+- Supersedes: Version 0.1 draft and version 0.2 proposal
 
-Until version 0.3 is approved, its proposed controls are constraints, not grants of additional agent authority. Existing Human Architect authority and all stricter restrictions remain in force.
+Governance set 0.3 is ACTIVE by explicit Human Architect decision recorded under S00-013. Activation grants no authority beyond the task-scoped permissions defined by this governance set.
+
+## Approval Record
+
+- Version: 0.3
+- Decision: Approved and authorized to become ACTIVE
+- Human Architect: Human Architect
+- Decision date: 2026-08-08
+- Effective date: 2026-08-08
+- Exceptions: None recorded
+- Task/PR reference: S00-013; PR #1
 
 ## Normative Documents
 

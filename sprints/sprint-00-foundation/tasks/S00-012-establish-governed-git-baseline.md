@@ -239,7 +239,8 @@ Treat both bootstrap scripts as temporary, pre-baseline scaffolding rather than 
 - Commit branch: `main`.
 - Immediate post-commit status: `CLEAN`.
 - Follow-up evidence commit message: `docs: record baseline commit evidence [S00-012]`.
-- Follow-up evidence commit hash: necessarily determined after this report is committed. Recording that hash in committed history would require another commit; history will not be rewritten and no recursive evidence-commit chain will be created.
+- Follow-up evidence commit hash: `ee879de5bbb4cb17e2d4f16e04018e78341fc557`.
+- Evidence-hash recording status: recorded after the evidence commit as an unstaged execution-report update. Committing this result would require another commit; history was not rewritten and no recursive evidence-commit chain was created.
 
 ### Remaining Risks
 
@@ -257,7 +258,9 @@ Treat both bootstrap scripts as temporary, pre-baseline scaffolding rather than 
 
 ### External Git Status
 
-- Push status: authorized as a one-time direct `main` baseline exception; final result is recorded after the operation in the task and sprint execution logs without creating another commit.
+- Push status: succeeded; local `main` was published to `origin` as `origin/main` under the one-time direct-baseline exception.
+- Remote tracking status: local `main` tracks `origin/main` and is synchronized after the push.
+- Post-push evidence status: the task and sprint execution logs contain the resulting commit hash and push outcome as unstaged updates because recording them in committed history would require another unauthorized evidence commit.
 - PR status: `N/A — not authorized`.
 - Merge status: `N/A — not authorized`.
 - Force-push/history rewrite/branch deletion: not performed.

@@ -1,9 +1,10 @@
 # Codex Autonomy Level Policy
 
 > Document version: 0.1  
-> Governance set: 0.3 Proposed  
+> Governance set: 0.3  
 > Authority: Human Architect  
-> Effective date: Pending approval
+> Effective date: 2026-08-08  
+> Status: Active
 
 ## Purpose and Core Rule
 
@@ -128,4 +129,3 @@ All content proposed for staging, commit, push, or PR in a public repository MUS
 5. stop staging and request Human Architect review if suspected sensitive content is detected.
 
 A clean scan reduces risk but is not proof that content is safe. Staging authorization never overrides this gate.
-
