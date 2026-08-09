@@ -21,7 +21,7 @@ Governance set 0.3 is ACTIVE by explicit Human Architect decision recorded under
 - Decision date: 2026-08-08
 - Effective date: 2026-08-08
 - Exceptions: None recorded
-- Task/PR reference: S00-013; PR pending creation
+- Task/PR reference: S00-013; PR #1
 
 ## Normative Documents
 

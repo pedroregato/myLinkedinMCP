@@ -38,7 +38,7 @@ The governed baseline is synchronized at `ee879de5bbb4cb17e2d4f16e04018e78341fc5
 - [x] Existing S00-012 post-push evidence edits are preserved.
 - [x] Governance, reconciliation, conflict-marker, sensitive-content, and diff checks pass.
 - [ ] Only authorized files are staged and committed with Task ID S00-013.
-- [ ] Only the named task branch is pushed and a PR to `main` is created.
+- [x] Only the named task branch is pushed and PR #1 to `main` is created.
 - [x] S00-013 is moved to REVIEW, not DONE.
 
 ## Risks and Dependencies
@@ -83,7 +83,7 @@ Level: ELEVATED
 - Diff summary: Governance 0.3 approval/Active metadata; Sprint 00 activation; accepted governance-task reconciliation; preserved S00-012 post-push evidence; S00-013 lifecycle evidence.
 - Checks executed and results: live baseline/auth verification passed; governance current-metadata consistency passed; board/backlog/acceptance Task-ID reconciliation passed; task/board status reconciliation passed; conflict-marker scan passed; full changed/untracked public-repository sensitive-content scan passed; `.gitignore` reviewed; full diff reviewed; `git diff --check` reported only the established two-space Markdown hard-break formatting in governance metadata.
 - Commit hash(es): exact hash is necessarily produced after this record is committed and will be recorded in the PR and final Human Architect handoff without rewriting history or creating a recursive evidence chain.
-- Pull request and reviewed head: pending PR creation.
+- Pull request and reviewed head: PR #1; reviewed pre-correction head `860ea0cf92d60a16ce092fd6e693481cb9f9d3c6`.
 - Human acceptance decision/date: pending Human Architect PR review; activation authority recorded 2026-08-08.
 - Merge reference: pending Human Architect action.
 - Sprint closure reference: N/A — Sprint 00 closure is prohibited and not authorized.
